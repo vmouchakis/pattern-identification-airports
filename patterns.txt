@@ -1,0 +1,139 @@
+|--- UniqueCarrier_US <= 0.50
+|   |--- CRSDepTime_20 <= 0.50
+|   |   |--- CRSDepTime_16 <= 0.50
+|   |   |   |--- CRSDepTime_17 <= 0.50
+|   |   |   |   |--- CRSDepTime_19 <= 0.50
+|   |   |   |   |   |--- UniqueCarrier_CO <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- UniqueCarrier_CO >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CRSDepTime_19 >  0.50
+|   |   |   |   |   |--- FlightNum_710 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- FlightNum_710 >  0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |--- CRSDepTime_17 >  0.50
+|   |   |   |   |--- Dest_STL <= 0.50
+|   |   |   |   |   |--- UniqueCarrier_EA <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- UniqueCarrier_EA >  0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- Dest_STL >  0.50
+|   |   |   |   |   |--- DayofWeek_3 <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- DayofWeek_3 >  0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |--- CRSDepTime_16 >  0.50
+|   |   |   |--- Origin_DFW <= 0.50
+|   |   |   |   |--- FlightNum_1768 <= 0.50
+|   |   |   |   |   |--- FlightNum_1257 <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- FlightNum_1257 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- FlightNum_1768 >  0.50
+|   |   |   |   |   |--- DayofWeek_1 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- DayofWeek_1 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- Origin_DFW >  0.50
+|   |   |   |   |--- DayofWeek_2 <= 0.50
+|   |   |   |   |   |--- DayofWeek_6 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- DayofWeek_6 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DayofWeek_2 >  0.50
+|   |   |   |   |   |--- FlightNum_1028 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- FlightNum_1028 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |--- CRSDepTime_20 >  0.50
+|   |   |--- DayofWeek_6 <= 0.50
+|   |   |   |--- UniqueCarrier_CO <= 0.50
+|   |   |   |   |--- FlightNum_1001 <= 0.50
+|   |   |   |   |   |--- Origin_HPN <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- Origin_HPN >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- FlightNum_1001 >  0.50
+|   |   |   |   |   |--- DayofWeek_5 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- DayofWeek_5 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- UniqueCarrier_CO >  0.50
+|   |   |   |   |--- DayofWeek_5 <= 0.50
+|   |   |   |   |   |--- Dest_BOS <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Dest_BOS >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DayofWeek_5 >  0.50
+|   |   |   |   |   |--- FlightNum_197 <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- FlightNum_197 >  0.50
+|   |   |   |   |   |   |--- class: 3
+|   |   |--- DayofWeek_6 >  0.50
+|   |   |   |--- FlightNum_1135 <= 0.50
+|   |   |   |   |--- FlightNum_844 <= 0.50
+|   |   |   |   |   |--- Dest_ORD <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Dest_ORD >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- FlightNum_844 >  0.50
+|   |   |   |   |   |--- class: 2
+|   |   |   |--- FlightNum_1135 >  0.50
+|   |   |   |   |--- class: 2
+|--- UniqueCarrier_US >  0.50
+|   |--- FlightNum_199 <= 0.50
+|   |   |--- CRSDepTime_11 <= 0.50
+|   |   |   |--- CRSDepTime_10 <= 0.50
+|   |   |   |   |--- CRSDepTime_21 <= 0.50
+|   |   |   |   |   |--- CRSDepTime_17 <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- CRSDepTime_17 >  0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- CRSDepTime_21 >  0.50
+|   |   |   |   |   |--- FlightNum_394 <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- FlightNum_394 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- CRSDepTime_10 >  0.50
+|   |   |   |   |--- DayofWeek_4 <= 0.50
+|   |   |   |   |   |--- DayofWeek_7 <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- DayofWeek_7 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DayofWeek_4 >  0.50
+|   |   |   |   |   |--- FlightNum_172 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- FlightNum_172 >  0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |--- CRSDepTime_11 >  0.50
+|   |   |   |--- FlightNum_405 <= 0.50
+|   |   |   |   |--- DayofWeek_7 <= 0.50
+|   |   |   |   |   |--- FlightNum_530 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- FlightNum_530 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DayofWeek_7 >  0.50
+|   |   |   |   |   |--- FlightNum_348 <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- FlightNum_348 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- FlightNum_405 >  0.50
+|   |   |   |   |--- DayofWeek_5 <= 0.50
+|   |   |   |   |   |--- DayofWeek_7 <= 0.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- DayofWeek_7 >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DayofWeek_5 >  0.50
+|   |   |   |   |   |--- class: 2
+|   |--- FlightNum_199 >  0.50
+|   |   |--- DayofWeek_7 <= 0.50
+|   |   |   |--- DayofWeek_3 <= 0.50
+|   |   |   |   |--- DayofWeek_6 <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- DayofWeek_6 >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- DayofWeek_3 >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- DayofWeek_7 >  0.50
+|   |   |   |--- class: 1
